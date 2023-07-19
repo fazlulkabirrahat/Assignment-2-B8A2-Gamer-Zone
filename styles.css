@@ -551,8 +551,6 @@ border: 5px solid #F948B2;
     line-height: 30px; 
 }
 .sec-3 .pl-ins .pl-right{
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
     position: relative;
 }
 .sec-3 .pl-ins .pl-right .img-top{

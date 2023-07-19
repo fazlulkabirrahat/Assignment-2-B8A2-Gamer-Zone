@@ -1,7 +1,8 @@
 @media screen and (max-width: 425px) {
-    /* .body{
-        
-    } */
+    .container{
+        width: 100%;
+        margin: auto;
+    }
     .header{
         flex-direction: column;
     }
@@ -21,4 +22,174 @@
         align-items: center;
         flex: 1;
     }
+    .sec-2 .on-gam-b{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-2 .on-gam-b .on-gam-b-box-1 .on-gam-text p{
+        width: 300px;
+        color: #534C64;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .sec-2 .on-gap-t h1{
+        text-align: center;
+        font-size: 30px;
+        width: 400px;
+    }
+    .sec-2 .on-gap-t p{
+        width: 400px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .sec-2 .on-gap-t {
+        align-items: center;
+    }
+    .sec-3 .pl-ins{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    img.img-bk {
+        width: 335px;
+        margin-left: 30px;
+    }
+    .sec-3 .pl-ins .pl-right .img-top {
+        position: absolute;
+        left: -24px;
+    }
+    .sec-3 .pl-ins .pl-right{
+        text-align: center;
+    }
+    .container.pl-ins {
+        padding-top: 0px;
+    }
+    .sec-3 .pl-ins .pl-left{
+        align-items: center;
+        padding-top: 50px;
+    }
+    .sec-3 .pl-ins .pl-left h1{
+        text-align: center;
+        font-size: 42px;
+     }
+    .sec-3 .pl-ins .pl-left p {
+        font-size: 16px;
+        width: 400px;
+        text-align: center;
+    }
+    .sec-3 .pl-ins .pl-left {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .sec-5 .ic-sec-top{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px;
+    }
+    .ic-sec-top .ic-btn-1{
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+        padding: 8px 10px 8px 5px;
+        border: 2px solid #fff;
+        background: #fff;
+    }
+    .ic-sec-top .ic-btn-1 img{
+        height: 30px;
+        width: 30px;
+        padding-right: 10px;
+    
+    }
+    .ic-sec-top button p{
+        font-size: 15px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+    }
+    .ic-sec-top .ic-btn-1:nth-child(1){
+        width: 175px;
+
+    }
+    .ic-sec-top .ic-btn-1:nth-child(2){
+        width: 200px;
+
+    }
+    .ic-sec-top .ic-btn-1:nth-child(3){
+        width: 173px;
+
+    }
+    .ic-sec-top .ic-btn-1:nth-child(4){
+        width: 202px;
+
+    }
+    .ic-sec-top .ic-btn-1:nth-child(5){
+        width: 155px;
+
+    }
+    .ic-sec-top .ic-btn-1:nth-child(6){
+        width: 215px;
+        margin-left: 0px;
+
+    }
+    .ic-sec-top .ic-btn-1:nth-child(7){
+        width: 218px;
+        margin-left: 70px;
+
+    }
+    .ic-sec-top .ic-btn-1:nth-child(8){
+        width: 170px;
+
+    }
+    .ic-sec-top .ic-btn-1:nth-child(9){
+        width: 197px;
+        margin-right: 0px;
+
+    }
+
+    .inner-footer {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer .inner-footer .f-icon ul {
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .inner-footer .f-icon ul img{
+        width: 30px;
+    }
+    footer .inner-footer .copy p {
+        font-size: 14px;
+    }
+    footer .inner-footer .f-b-menu ul {
+        font-size: 14px;
+        flex-direction: INHERIT;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 373PX;
+        gap: 25px;
+    }
+    footer .inner-footer .f-menu ul {
+        flex-direction: INHERIT;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 373PX;
+        gap: 25px;
+        font-size: 18px;
+    }
+
   }
