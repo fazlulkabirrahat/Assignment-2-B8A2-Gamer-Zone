@@ -3,13 +3,22 @@
         
     } */
     .header{
-        display: flex;
-        justify-content: center;
-        flex-direction:column;
+        flex-direction: column;
     }
     .header .menu-area ul{
-        display: block;
+    flex-direction: column;
+ 
+    }
+    .header .menu-area ul li ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .header .menu-area ul .abo, .header .menu-area ul .dev{
+        padding-top:0px;
+        }
+    .banner .t-ban{
         flex-direction: column;
-        gap: 0px;
+        align-items: center;
+        flex: 1;
     }
   }
