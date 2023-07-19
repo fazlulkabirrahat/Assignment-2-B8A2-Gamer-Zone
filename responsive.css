@@ -1,0 +1,15 @@
+@media screen and (max-width: 425px) {
+    /* .body{
+        
+    } */
+    .header{
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+    .header .menu-area ul{
+        display: block;
+        flex-direction: column;
+        gap: 0px;
+    }
+  }
